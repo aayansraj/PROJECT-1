@@ -350,16 +350,34 @@
 
 
 // //map() - Transformation
-// //purpose 
+        // //purpose 
 
-let prices =[100,200,300];
+// let prices =[100,200,300];
 
-let gstPrices = prices.map(p => p+p * 0.8);
-console.log(gstPrices);
+// let gstPrices = prices.map(p => p+p * 0.8);
+// console.log(gstPrices);
 
-let r1 = prices.map(
-    (x) => {
-        return x * x;
-    }
-)
-console.log("Map result",gstPrices);
+// let r1 = prices.map(
+//     (x) => {
+//         return x * x;
+//     }
+// )
+// console.log("Map result",gstPrices);
+
+// let r1 = prices.map(
+//     (x)=>{
+//         return x*x;
+//     }
+// )
+// console.log("Map result",r1);
+
+// let ratius = [1,2,3];
+
+// let crm = ratius.map((r) =>{
+//     if(r % 2 !== 0){
+//         return 2 * 3.14 *r;
+//     }else{
+//         return 3.14 * r * r;
+//     }
+// })
+// console.log(crm);
